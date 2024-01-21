@@ -66,9 +66,9 @@ contributors.md
 /screenshots/
 
 # Volumes mounted by Docker containers
-docker/data
-docker/wordpress
-docker/logs
+# docker/data
+# docker/wordpress
+# docker/logs
 
 # Local machine docker override
 docker-compose.override.yml
