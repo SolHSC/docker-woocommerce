@@ -1,0 +1,62 @@
+2024-01-19T13:30:13+00:00 INFO ENVIRONMENT: array (
+  'WP_User' => 'sol',
+  'HTTP_REFERER' => 'http://localhost:8000/wp-admin/admin.php?page=wc-settings&tab=checkout&section',
+  'HTTP_USER_AGENT' => 'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/120.0.0.0 Safari/537.36',
+  'REQUEST_URI' => '/index.php?rest_route=wcv3paymentssettings&_locale=user',
+  'DOING_AJAX' => false,
+  'DOING_CRON' => false,
+  'WP_CLI' => false,
+)
+2024-01-19T13:30:13+00:00 INFO REQUEST GET https://public-api.wordpress.com/wpcom/v2/sites/%s/wcpay/fraud_ruleset?test_mode=1
+2024-01-19T13:30:14+00:00 INFO HEADERS: array (
+  'Content-Type' => 'application/json; charset=utf-8',
+  'User-Agent' => 'WooCommerce Payments/7.0.0',
+)
+2024-01-19T13:30:14+00:00 INFO HTTP_REQUEST_ERROR Site is not connected to WordPress.com
+2024-01-19T14:04:51+00:00 INFO ENVIRONMENT: array (
+  'WP_User' => 'sol',
+  'HTTP_REFERER' => 'http://localhost:8000/wp-admin/admin.php?page=wc-settings&tab=checkout&section',
+  'HTTP_USER_AGENT' => 'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/120.0.0.0 Safari/537.36',
+  'REQUEST_URI' => '/index.php?rest_route=wcv3paymentssettings&_locale=user',
+  'DOING_AJAX' => false,
+  'DOING_CRON' => false,
+  'WP_CLI' => false,
+)
+2024-01-19T14:04:51+00:00 INFO REQUEST GET https://public-api.wordpress.com/wpcom/v2/sites/%s/wcpay/fraud_ruleset?test_mode=1
+2024-01-19T14:04:51+00:00 INFO HEADERS: array (
+  'Content-Type' => 'application/json; charset=utf-8',
+  'User-Agent' => 'WooCommerce Payments/7.0.0',
+)
+2024-01-19T14:04:51+00:00 INFO HTTP_REQUEST_ERROR Site is not connected to WordPress.com
+2024-01-19T14:19:34+00:00 INFO ENVIRONMENT: array (
+  'WP_User' => 'sol',
+  'HTTP_REFERER' => 'http://localhost:8000/wp-admin/admin.php?page=wc-settings&tab=checkout',
+  'HTTP_USER_AGENT' => 'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/120.0.0.0 Safari/537.36',
+  'REQUEST_URI' => '/index.php?rest_route=wcv3paymentssettings&_locale=user',
+  'DOING_AJAX' => false,
+  'DOING_CRON' => false,
+  'WP_CLI' => false,
+)
+2024-01-19T14:19:34+00:00 INFO REQUEST GET https://public-api.wordpress.com/wpcom/v2/sites/%s/wcpay/fraud_ruleset?test_mode=1
+2024-01-19T14:19:34+00:00 INFO HEADERS: array (
+  'Content-Type' => 'application/json; charset=utf-8',
+  'User-Agent' => 'WooCommerce Payments/7.0.0',
+)
+2024-01-19T14:19:34+00:00 INFO HTTP_REQUEST_ERROR Site is not connected to WordPress.com
+2024-01-19T14:20:15+00:00 INFO Tracks event: wcpay_account_connect_start with data: {"incentive":"","is_new_onboarding_flow":false,"woo_country_code":"(redacted)","mode":"test"}
+2024-01-19T14:29:43+00:00 INFO ENVIRONMENT: array (
+  'WP_User' => 'sol',
+  'HTTP_REFERER' => 'http://localhost:8000/wp-admin/admin.php?page=wc-settings&tab=checkout&section',
+  'HTTP_USER_AGENT' => 'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/120.0.0.0 Safari/537.36',
+  'REQUEST_URI' => '/index.php?rest_route=wcv3paymentssettings&_locale=user',
+  'DOING_AJAX' => false,
+  'DOING_CRON' => false,
+  'WP_CLI' => false,
+)
+2024-01-19T14:29:43+00:00 INFO REQUEST GET https://public-api.wordpress.com/wpcom/v2/sites/%s/wcpay/fraud_ruleset?test_mode=1
+2024-01-19T14:29:43+00:00 INFO HEADERS: array (
+  'Content-Type' => 'application/json; charset=utf-8',
+  'User-Agent' => 'WooCommerce Payments/7.0.0',
+)
+2024-01-19T14:29:43+00:00 INFO HTTP_REQUEST_ERROR Site is not connected to WordPress.com
+2024-01-19T14:34:26+00:00 INFO Tracks event: wcpay_account_connect_start with data: {"incentive":"","is_new_onboarding_flow":false,"woo_country_code":"(redacted)","mode":"test"}
