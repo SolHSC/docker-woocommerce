@@ -1,0 +1,143 @@
+# Translation of Plugins - Instant Images &#8211; One Click Image Uploads from Unsplash, Openverse, Pixabay and Pexels - Stable (latest release) in German
+# This file is distributed under the same license as the Plugins - Instant Images &#8211; One Click Image Uploads from Unsplash, Openverse, Pixabay and Pexels - Stable (latest release) package.
+msgid ""
+msgstr ""
+"PO-Revision-Date: 2023-05-08 13:57:50+0000\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Plural-Forms: nplurals=2; plural=n != 1;\n"
+"X-Generator: GlotPress/4.0.0-alpha.11\n"
+"Language: de\n"
+"Project-Id-Version: Plugins - Instant Images &#8211; One Click Image Uploads from Unsplash, Openverse, Pixabay and Pexels - Stable (latest release)\n"
+
+#: instant-images.php:348
+msgid "Search for Toronto + Coffee etc..."
+msgstr "Suche nach Toronto + Coffee …"
+
+#: instant-images.php:364
+msgid "Upload"
+msgstr "Upload"
+
+#: instant-images.php:356
+msgid "Title"
+msgstr "Titel"
+
+#: instant-images.php:354
+msgid "Insert Into Post"
+msgstr "In Beitrag einfügen"
+
+#: instant-images.php:353
+msgid "Set as Featured Image"
+msgstr "Als Beitragsbild festlegen"
+
+#: instant-images.php:336
+msgid "Click to Upload"
+msgstr "Klicke zum Hochladen"
+
+#: instant-images.php:355
+msgid "Filename"
+msgstr "Dateiname"
+
+#: instant-images.php:357
+msgid "Alt Text"
+msgstr "Alt-Text"
+
+#: instant-images.php:358
+msgid "Caption"
+msgstr "Beschriftung"
+
+#: instant-images.php:361
+msgid "Edit Image Details"
+msgstr "Bildinformationen bearbeiten"
+
+#: instant-images.php:362
+msgid "Cancel"
+msgstr "Abbrechen"
+
+#: instant-images.php:363
+msgid "Save"
+msgstr "Speichern"
+
+#: admin/includes/settings/whats-new.php:12
+msgid "What's New"
+msgstr "Was gibt es Neues"
+
+#: instant-images.php:333
+msgid "View All Photos by"
+msgstr "Zeige alle Fotos von"
+
+#: admin/includes/settings.php:38
+msgid "Upload Image Width"
+msgstr "Bildbreite Upload"
+
+#: admin/includes/settings.php:47
+msgid "Upload Image Height"
+msgstr "Bildhöhe Upload"
+
+#: instant-images.php:344 build/block/index.js:1 build/instant-images.js:1
+#: build/media-modal/index.js:1 build/plugin-sidebar/index.js:1
+msgid "Oldest"
+msgstr "Älteste"
+
+#: admin/includes/settings/save.php:10
+msgid "Save Settings"
+msgstr "Einstellungen speichern"
+
+#. Plugin Name of the plugin
+#: admin/admin.php:152 admin/admin.php:169 instant-images.php:300
+msgid "Instant Images"
+msgstr "Instant Images"
+
+#. Plugin URI of the plugin
+msgid "https://connekthq.com/plugins/instant-images/"
+msgstr "https://connekthq.com/plugins/instant-images/"
+
+#. Author of the plugin
+msgid "Darren Cooney"
+msgstr "Darren Cooney"
+
+#. Author URI of the plugin
+msgid "https://connekthq.com"
+msgstr "https://connekthq.com"
+
+#: instant-images.php:335
+msgid "Click Image to Upload"
+msgstr "Klicke für einen Upload auf das Bild"
+
+#: instant-images.php:337
+msgid "Downloading image..."
+msgstr "Lade Bild herunter …"
+
+#: instant-images.php:342 instant-images.php:343
+msgid "New"
+msgstr "Neu"
+
+#: instant-images.php:345 build/block/index.js:1 build/instant-images.js:1
+#: build/media-modal/index.js:1 build/plugin-sidebar/index.js:1
+msgid "Popular"
+msgstr "Beliebt"
+
+#: admin/includes/settings/our-plugins.php:13
+msgid "Our Plugins"
+msgstr "Unsere Plugins"
+
+#: admin/includes/header.php:18 instant-images.php:471
+msgid "Settings"
+msgstr "Einstellungen"
+
+#: api/download.php:189
+msgid "Image successfully uploaded to the media library!"
+msgstr "Bild erfolgreich in die Mediathek hochgeladen!"
+
+#: admin/includes/settings.php:193
+msgid "Max Image Upload Width"
+msgstr "Max. Bildbreite des Uploads"
+
+#: admin/includes/settings.php:209
+msgid "Max Image Upload Height"
+msgstr "Max. Bildhöhe des Uploads"
+
+#: instant-images.php:350
+msgid "image(s) found for"
+msgstr "Bild(er) gefunden für"
