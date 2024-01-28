@@ -131,3 +131,7 @@ if ( ! defined( 'ABSPATH' ) ) {
 
 /** Sets up WordPress vars and included files. */
 require_once ABSPATH . 'wp-settings.php';
+
+define( 'JETPACK_DEV_DEBUG', true );
+define( 'WCPAY_DEV_MODE', true );
+define(' WP_ENVIRONMENT_TYPE', 'development');
