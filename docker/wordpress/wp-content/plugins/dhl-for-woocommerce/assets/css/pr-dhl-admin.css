@@ -1,0 +1,453 @@
+.wc_dhl_error,
+.wc_dhl_delete #dhl_delete_label,
+.wc_dhl_delete #pr_dhl_dp_delete_label {
+	color: #a00;
+}
+
+span.wc_dhl_delete,
+span.wc_dhl_error {
+	float:right;
+}
+
+ul.wc_dhl_error{
+	list-style-type: disc;
+	padding-left:20px;
+}
+
+.dhl_connection_succeeded {
+	color: #008000;
+	margin-left: 10px;
+	margin-top: 10px;
+}
+
+.dhl_connection_error {
+	color: #a00;
+	margin-left: 10px;
+	margin-top: 10px;
+}
+
+#dhl_label_created {
+	width: 10ch;
+	min-width: 55px;
+	/*text-align:center*/
+}
+
+#dhl-optin-notice {
+	padding: 8px 15px;
+}
+
+#pr_dhl_create_order {
+	float: right;
+}
+
+#pr_dhl_order_items_table a.pr_dhl_order_remove_item {
+	outline: 0;
+	box-shadow: 0 0 0 transparent;
+}
+#pr_dhl_order_items_table a.pr_dhl_order_remove_item[disabled] {
+	color: #777;
+	pointer-events: none;
+}
+
+#pr_dhl_order_gen_label_message,
+#pr_dhl_reset_order,
+#pr_dhl_dp_error {
+	display: none;
+}
+
+#pr_dhl_dp_error {
+    color: red;
+}
+
+#woocommerce-shipment-dhl-label,
+#woocommerce-dhl-dp-order {
+	background-image: -webkit-gradient(linear,left top,left bottom,color-stop(50%,#fc0),to(rgba(255,204,0,0)));
+	background-image: linear-gradient(#fc0 50%,rgba(255,204,0,0));
+	background-size: auto 36px;
+	background-repeat:repeat-x;
+}
+
+
+#woocommerce-shipment-dhl-label h2.hndle.ui-sortable-handle {
+    background: url(../img/dhl-official.png);
+	background-size: contain;
+    background-repeat: no-repeat;
+    background-position: left 14px top;
+    font-size: 0;
+    height: 20px;
+}
+
+div#shipment-dhl-label-form > div:nth-of-type(even) {
+    background: #F9F9F9;
+}
+ #woocommerce-shipment-dhl-label .inside {
+    padding: 0;
+    border-bottom: 5px solid #FFCC00;
+}
+ #shipment-dhl-label-form > div {
+    padding: 10px 15px;
+}
+ #shipment-dhl-label-form > hr,
+ .shipment-dhl-row-additional-services > hr {
+    display: none;
+}
+
+#shipment-dhl-label-form #dhl-label-button,
+#shipment-dhl-label-form #dhl-label-print,
+#shipment-dhl-label-form .wc_dhl_delete {
+    margin: 0 15px 20px;
+}
+
+
+.pr_dhl_weight_field,
+.pr_dhl_cdp_delivery_display_field,
+.pr_dhl_multi_packages_enabled_field,
+.pr_dhl_named_person_field,
+.pr_dhl_no_neighbor_field,
+.pr_dhl_additional_insurance_field,
+.pr_dhl_premium_field,
+.pr_dhl_bulky_goods_field,
+.pr_dhl_identcheck_field,
+.pr_dhl_is_codeable_field,
+.pr_dhl_routing_field,
+.pr_dhl_PDDP_field,
+.pr_dhl_signature_service_field{
+	display: flex;
+}
+
+.pr_dhl_weight_field input#pr_dhl_weight {
+	order: 1;
+	width: 50px;
+	margin-right: 10px;
+}
+
+.pr_dhl_weight_field label,
+.pr_dhl_cdp_delivery_display_field label,
+.pr_dhl_multi_packages_enabled_field label,
+.pr_dhl_named_person_field label,
+.pr_dhl_no_neighbor_field label,
+.pr_dhl_additional_insurance_field label,
+.pr_dhl_premium_field label,
+.pr_dhl_bulky_goods_field label,
+.pr_dhl_identcheck_field label,
+.pr_dhl_is_codeable_field label,
+.pr_dhl_routing_field label,
+.pr_dhl_PDDP_field label,
+.pr_dhl_signature_service_field label{
+	order: 2;
+	margin-left: 4px;
+}
+
+
+.pr_dhl_multi_packages_enabled_field input,
+.pr_dhl_PDDP_field input{
+	margin: 10px 10px 15px 0;
+}
+
+.pr_dhl_preferred_day_field label {
+	display: block;
+}
+
+.pr_dhl_preferred_day_field select,
+.pr_dhl_age_visual_field select,
+.pr_dhl_identcheck_age_field select,
+.pr_dhl_identcheck_dob_field  input[type=text] {
+	display: block;
+	width: 75%;
+}
+
+
+
+.shipment-dhl-row-container select,
+.shipment-dhl-row-container input {
+    margin-top: 5px;
+}
+
+
+.dhl-total-packages #pr_dhl_total_packages {
+  width: 100px !important;
+  margin-top: -7px;
+  margin-left: 5px;
+}
+
+p.dhl-total-packages > label {
+  padding-bottom: 10px !important;
+}
+
+.package_header_field,
+.package_item_field {
+  display: inline-block;
+  width: 45px !important;
+}
+
+.package_header_field.first,
+.package_item_field.first {
+  width: 55px !important;
+}
+
+.package_item input {
+  width: 40px !important;
+
+}
+
+.dhl-awb-filter-container{
+	clear:both;
+	margin-top:9px;
+	margin-bottom:9px;
+}
+
+#dhl-paket-action-request-pickup {
+	padding: 0 10px;
+}
+#dhl-paket-action-request-pickup h3 {
+	margin: 10px 0;
+	padding: 0 0;
+}
+
+#dhl-paket-action-request-pickup p.form-field {
+	margin: 5px 0;
+}
+#dhl-paket-action-request-pickup p.pr_dhl_request_pickup_date_modal_field {
+	margin: 0 0;
+	padding: 0;
+}
+
+@media screen and (max-width: 782px) {
+	#dhl-paket-action-request-pickup {
+		padding: 0;
+	}
+	#dhl-paket-action-request-pickup p.form-field {
+		padding: 0 !important;
+	}
+}
+
+.shipment-dhl-icon-container {
+	font-size:14px;
+	font-weight:500;
+}
+
+.shipment-dhl-crossborder-domestic .shipment-dhl-icon-container {
+	font-weight: 400;
+}
+
+.shipment-dhl-icon-container .shipment-dhl-icon {
+	display: inline-block;
+    width: 21px;
+    height: 16px;
+    background-size: contain;
+    background-repeat: no-repeat;
+    background-position: bottom left;
+    margin: 2px 2px -2px 0;
+}
+
+.shipment-dhl-icon-container .shipment-dhl-icon-service {
+	background-image: url(../img/order-icons/service.png);
+}
+
+.shipment-dhl-icon-container .shipment-dhl-icon-weight {
+	background-image: url(../img/order-icons/weight.png);
+}
+
+.shipment-dhl-icon-container .shipment-dhl-icon-packages {
+	background-image: url(../img/order-icons/multiple.png);
+}
+
+.shipment-dhl-icon-container .shipment-dhl-icon-return-addr {
+	background-image: url(../img/order-icons/return.png);
+}
+
+
+.shipment-dhl-icon-container .shipment-dhl-icon-delivery-options {
+	background-image: url(../img/order-icons/delivery.png);
+}
+
+.shipment-dhl-icon-container .shipment-dhl-icon-additional-services {
+	background-image: url(../img/order-icons/additional.png);
+}
+
+.shipment-dhl-icon-container .shipment-dhl-icon-crossborder-domestic {
+	background-image: url(../img/order-icons/plane.png);
+}
+
+#dhlpaket_shipping_method_settings {
+	display:flex;
+	flex-direction: row;
+	align-items: stretch;
+	margin-top: 40px;
+}
+
+#dhlpaket_shipping_method_settings .dhlpaket_tab_menu {
+	width:250px;
+	background-color:transparent;
+}
+
+#dhlpaket_shipping_method_settings .dhlpaket_tab_menu .dhlpaket_tab_menu_item {
+	display:block;
+	width:250px;
+	color:#777B7D;
+	box-sizing:border-box;
+	padding:15px 10px 15px 40px;
+	text-decoration: none !important;
+	font-size:14px;
+	font-weight:500;
+	letter-spacing: 0px;
+	border-bottom:2px solid #f0f0f1;
+	background: #FFF;
+	position:relative;
+	outline:none !important;
+	box-shadow:none !important;
+}
+
+#dhlpaket_shipping_method_settings .dhlpaket_tab_menu .dhlpaket_tab_menu_item:before {
+	content:"";
+	display:block;
+	position:absolute;
+	top:15px;
+	left:13px;
+	font-family:dashicons;
+	font-size:18px;
+	margin-right:7px;
+}
+
+#dhlpaket_shipping_method_settings .dhlpaket_tab_menu .dhlpaket_tab_menu_item.dhlpaket-active {
+	color:#d30512;
+	border-bottom:2px solid #ffcc01;
+}
+
+#dhlpaket_shipping_method_settings .dhlpaket_tab_menu #dhlpaket_tab_menu_item_0:before {
+	content:"\f110";
+}
+
+#dhlpaket_shipping_method_settings .dhlpaket_tab_menu #dhlpaket_tab_menu_item_1:before {
+	content:"\f481";
+}
+
+#dhlpaket_shipping_method_settings .dhlpaket_tab_menu #dhlpaket_tab_menu_item_2:before {
+	content:"\f323";
+}
+
+#dhlpaket_shipping_method_settings .dhlpaket_tab_menu #dhlpaket_tab_menu_item_3:before {
+	content:"\f154";
+}
+
+#dhlpaket_shipping_method_settings .dhlpaket_tab_menu #dhlpaket_tab_menu_item_4:before {
+	content:"\f230";
+}
+
+#dhlpaket_shipping_method_settings .dhlpaket_tab_menu #dhlpaket_tab_menu_item_5:before {
+	content:"\f231";
+}
+
+#dhlpaket_shipping_method_settings .dhlpaket_tab_menu #dhlpaket_tab_menu_item_6:before {
+	content:"\f531";
+}
+
+#dhlpaket_shipping_method_settings .dhlpaket_tab_menu #dhlpaket_tab_menu_item_7:before {
+	content:"\f16a";
+}
+
+#dhlpaket_shipping_method_settings .dhlpaket_tab_menu #dhlpaket_tab_menu_item_8:before {
+	content:"\f469";
+}
+
+#dhlpaket_shipping_method_settings .dhlpaket_tab_menu #dhlpaket_tab_menu_item_9:before {
+	content:"\f15c";
+}
+
+#dhlpaket_shipping_method_settings .dhlpaket_tab_content {
+	width:auto;
+	padding:0px 40px;
+}
+
+#dhlpaket_shipping_method_settings .dhlpaket_tab_content > * {
+	display:none;
+}
+
+#dhlpaket_shipping_method_settings .dhlpaket_tab_content .wc-shipping-zone-method-fields {
+	display:block;
+}
+
+#dhlpaket_shipping_method_settings .dhlpaket_tab_content .wc-shipping-zone-method-fields > * {
+	display:none;
+}
+
+#dhlpaket_shipping_method_settings .dhlpaket_tab_content .dhlpaket-active {
+	display:block;
+}
+
+#dhlpaket_shipping_method_settings .dhlpaket_tab_content table.dhlpaket-active {
+	display:table;
+}
+
+h3#woocommerce_pr_dhl_paket_dhl_pickup_api_dist,
+h3#woocommerce_pr_dhl_paket_dhl_participation_title,
+h3#woocommerce_pr_dhl_paket_dhl_general,
+h3#woocommerce_pr_dhl_paket_dhl_preferred,
+h3#woocommerce_pr_dhl_paket_dhl_parcel_finder,
+h3#woocommerce_pr_dhl_paket_dhl_shipper,
+h3#woocommerce_pr_dhl_paket_dhl_return,
+h3#woocommerce_pr_dhl_paket_dhl_bank,
+h3#woocommerce_pr_dhl_paket_dhl_business_hours {
+	font-size: 22px;
+	margin-top: 5px;
+}
+
+h3#woocommerce_pr_dhl_paket_dhl_pickup_api_dist:before,
+h3#woocommerce_pr_dhl_paket_dhl_participation_title:before,
+h3#woocommerce_pr_dhl_paket_dhl_general:before,
+h3#woocommerce_pr_dhl_paket_dhl_preferred:before,
+h3#woocommerce_pr_dhl_paket_dhl_parcel_finder:before,
+h3#woocommerce_pr_dhl_paket_dhl_shipper:before,
+h3#woocommerce_pr_dhl_paket_dhl_return:before,
+h3#woocommerce_pr_dhl_paket_dhl_bank:before,
+h3#woocommerce_pr_dhl_paket_dhl_business_hours:before {
+	font-family:dashicons;
+	font-size:18px;
+	margin-right: 10px;
+}
+
+h3#woocommerce_pr_dhl_paket_dhl_pickup_api_dist:before {
+	content:"\f110";
+}
+
+
+h3#woocommerce_pr_dhl_paket_dhl_participation_title:before {
+	content:"\f481";
+}
+
+h3#woocommerce_pr_dhl_paket_dhl_general:before {
+	content:"\f323";
+}
+
+h3#woocommerce_pr_dhl_paket_dhl_preferred:before {
+	content:"\f154";
+}
+
+h3#woocommerce_pr_dhl_paket_dhl_parcel_finder:before {
+	content:"\f230";
+}
+
+h3#woocommerce_pr_dhl_paket_dhl_shipper:before {
+	content:"\f231";
+}
+h3#woocommerce_pr_dhl_paket_dhl_return:before {
+	content:"\f531";
+}
+h3#woocommerce_pr_dhl_paket_dhl_bank:before {
+	content:"\f16a";
+}
+h3#woocommerce_pr_dhl_paket_dhl_business_hours:before {
+	content:"\f469";
+}
+
+body.woocommerce_page_wc-settings.pr_dhl_paket p.submit button.woocommerce-save-button {
+	margin-left:290px;
+}
+
+body.woocommerce_page_wc-settings.pr_dhl_paket #dhlpaket_shipping_method_settings .dhlpaket_tab_content .wc-shipping-zone-method-fields p.submit {
+	display:block;
+}
+
+body.woocommerce_page_wc-settings.pr_dhl_paket .wc-shipping-zone-method-fields p.submit button.woocommerce-save-button {
+	margin-left:0px;
+}

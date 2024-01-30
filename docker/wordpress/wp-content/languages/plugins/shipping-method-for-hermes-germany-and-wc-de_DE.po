@@ -1,0 +1,157 @@
+# Translation of Plugins - Shipping Method for Hermes Germany and WooCommerce - Development (trunk) in German
+# This file is distributed under the same license as the Plugins - Shipping Method for Hermes Germany and WooCommerce - Development (trunk) package.
+msgid ""
+msgstr ""
+"PO-Revision-Date: 2020-09-10 19:53:55+0000\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Plural-Forms: nplurals=2; plural=n != 1;\n"
+"X-Generator: GlotPress/3.0.0-alpha.2\n"
+"Language: de\n"
+"Project-Id-Version: Plugins - Shipping Method for Hermes Germany and WooCommerce - Development (trunk)\n"
+
+#: includes/packages.php:64
+msgid "Enable L Package"
+msgstr "L-Paket aktivieren"
+
+#: includes/packages.php:62
+msgid "Longest + shortest side 80.1cm to 120cm, max 25kg, up to 500€ liability"
+msgstr "Längste + kürzeste Seite 80,1 cm bis 120 cm, max. 25 kg, bis 500 € Haftung"
+
+#: includes/packages.php:60
+msgid "L Package"
+msgstr "L-Paket"
+
+#: includes/packages.php:46
+msgid "Enable M Package"
+msgstr "M-Paket aktivieren"
+
+#: includes/packages.php:44
+msgid "Longest + shortest side 50.1cm to 80cm, max 25kg, up to 500€ liability"
+msgstr "Längste + kürzeste Seite 50,1 cm bis 80 cm, max. 25 kg, bis 500 € Haftung"
+
+#: includes/packages.php:42
+msgid "M Package"
+msgstr "M-Paket"
+
+#: includes/packages.php:28
+msgid "Enable S Package"
+msgstr "S-Paket aktivieren"
+
+#: includes/packages.php:26
+msgid "Longest + shortest side 0 cm to 50cm, max 25kg, up to 500€ liability"
+msgstr "Längste + kürzeste Seite 0 cm bis 50 cm, max. 25 kg, bis 500 € Haftung"
+
+#: includes/packages.php:24
+msgid "S Package"
+msgstr "S-Paket"
+
+#: includes/packages.php:10
+msgid "Enable Hermes Parcel"
+msgstr "Hermes Päckchen aktivieren"
+
+#: includes/packages.php:8
+msgid "Longest + shortest side 1cm to 37cm, max 25kg, up to 50€ liability"
+msgstr "Längste + kürzeste Seite 1 cm bis 37 cm, max. 25 kg, bis 50 € Haftung"
+
+#: includes/packages.php:6
+msgid "Hermes Parcel"
+msgstr "Hermes Päckchen"
+
+#: class-hermes-germany-shipping.php:252
+msgid "Click here to change the setting."
+msgstr "Klicke hier, um die Einstellung zu ändern."
+
+#: class-hermes-germany-shipping.php:242
+msgid "In order to the Hermes Shipping extension to work, the base country/region must be set to Germany."
+msgstr "Damit die Hermes-Versandmethode funktioniert, muss das Basisland auf Deutschland eingestellt sein."
+
+#: class-hermes-germany-shipping.php:238
+msgid "In order to use the Hermes Shipping extension to work, the store currency must be Euro."
+msgstr "Damit die Hermes-Versandmethode funktioniert, muss die Shop-Währung Euro sein."
+
+#: class-hermes-germany-shipping.php:128
+msgid "Default Hermes package height to be use (in case product height is not specified)"
+msgstr "Zu verwendende Standardhöhe (für den Fall, dass die Produkthöhe nicht angegeben ist)."
+
+#: class-hermes-germany-shipping.php:126
+msgid "Default Package Height (mm)"
+msgstr "Standard-Pakethöhe (mm)."
+
+#: class-hermes-germany-shipping.php:121
+msgid "Default Hermes package width to be use (in case product width is not specified)"
+msgstr "Zu verwendende Standardbreite (für den Fall, dass die Produktbreite nicht angegeben ist)."
+
+#: class-hermes-germany-shipping.php:119
+msgid "Default Package Width (mm)"
+msgstr "Standard-Paketbreite (mm)"
+
+#: class-hermes-germany-shipping.php:114
+msgid "Default Hermes package length to be use (in case product length is not specified)"
+msgstr "Zu verwendende Standardlänge (falls die Produktlänge nicht angegeben ist)."
+
+#: class-hermes-germany-shipping.php:112
+msgid "Default Package Length (mm)"
+msgstr "Standard-Paketlänge (mm)"
+
+#: class-hermes-germany-shipping.php:107
+msgid "Default Hermes package weight to be use (in case product weight is not specified)"
+msgstr "Zu verwendendes Standardgewicht (für den Fall, dass das Produktgewicht nicht angegeben ist)."
+
+#: class-hermes-germany-shipping.php:105
+msgid "Default Package Weight (g)"
+msgstr "Standard-Paketgewicht (g)"
+
+#: class-hermes-germany-shipping.php:100
+msgid "Enable debug mode."
+msgstr "Aktiviere den Debug-Modus."
+
+#: class-hermes-germany-shipping.php:98
+msgid "Debug Mode"
+msgstr "Debug-Modus"
+
+#: class-hermes-germany-shipping.php:93
+msgid "Title to be display in the Cart & Checkout pages."
+msgstr "Der Titel, der auf den Seiten Warenkorb und Kasse angezeigt werden soll."
+
+#: class-hermes-germany-shipping.php:91
+msgid "Title"
+msgstr "Titel"
+
+#: class-hermes-germany-shipping.php:86
+msgid "Enable Hermes Germany"
+msgstr "Hermes Germany aktivieren"
+
+#: class-hermes-germany-shipping.php:84
+msgid "Enable"
+msgstr "Aktivieren"
+
+#: class-hermes-germany-shipping.php:36
+msgid "A Hermes Germany shipping calculator"
+msgstr "Ein Versandrechner von Hermes Germany"
+
+#: class-hermes-germany-shipping.php:35 class-hermes-germany-shipping.php:56
+#: class-hermes-germany-shipping.php:94
+msgid "Hermes Shipping"
+msgstr "Hermes Paketversand"
+
+#. Author URI of the plugin
+msgid "https://waseem.blog"
+msgstr "https://waseem.blog"
+
+#. Author of the plugin
+msgid "WPRuby"
+msgstr "WPRuby"
+
+#. Description of the plugin
+msgid "Shipping Calculator for Hermes Germany and WooCommerce"
+msgstr "Versandkosten-Rechner für Hermes Germany und WooCommerce"
+
+#. Plugin URI of the plugin
+msgid "https://wpruby.com"
+msgstr "https://wpruby.com"
+
+#. Plugin Name of the plugin
+msgid "Shipping Method for Hermes Germany and WooCommerce"
+msgstr "Shipping Method for Hermes Germany and WooCommerce"
